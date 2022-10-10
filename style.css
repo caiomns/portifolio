@@ -1,18 +1,19 @@
 body {
     font-family: Silkscreen, sans-serif;
     color: #000000;
+    background-color: #d1770a;
 }
 
 h1, h2, h3 {
     font-family: Silkscreen, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #06e6c4;
+    color: #d1770a;
 }
 
 .botao {
     color: #FFFFFF;
     text-decoration: none;
     padding: 10px 30px;
-    background-color: #06e6c4;
+    background-color: #e64d06;
     font-size: .9em;
     border-radius: 3px;
 }
@@ -20,7 +21,7 @@ h1, h2, h3 {
 nav {
     display: flex;
     align-items: center;
-    background-color: #06e6c4;
+    background-color: #e64d06;
 }
 
 nav > a {
@@ -69,7 +70,7 @@ header{
     flex-direction: column;
     align-items: center;
     padding: 10px 10px 20px 20px;
-    background-color: #06e6c4;
+    background-color: #e64d06;
     color: #FFFFFF;
 }
 
@@ -87,6 +88,38 @@ header{
     color: #c1c1c1;
 }
 
+#video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 100px;
+}
+
+form > input[type="email"] {
+    flex: 3 1 30ch;
+    margin: .5em;
+}
+
+input {
+    border: none;
+    background: #e64d06;
+    border-radius: 10px;
+    padding: .75rem 1rem;
+}
+
+input[type="submit"] {
+    background: rgb(99, 11, 11);
+    color: #FFFFFF;
+}
+
 #contato {
     display: flex;
     flex-direction: column;
@@ -102,6 +135,6 @@ header{
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #06e6c4;
+    background-color: #e64d06;
     color:#FFFFFF
 }
